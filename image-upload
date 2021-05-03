@@ -1,0 +1,7 @@
+image:{
+
+data:Buffer
+contentType:Strng
+}
+res.set('Content-Type',hote.image.contentType);
+return res.sendt(hotel.image.data)
